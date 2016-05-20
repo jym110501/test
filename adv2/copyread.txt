@@ -1,0 +1,29 @@
+File类：不能操作文件，只能查看文件属性
+	文件名、路径、长度、手否是文件....
+	File file = new File("D:/a.txt");
+	file.getName();
+	file.length();
+	file.isFile();
+	file.delete();
+	file.list()
+	
+Stream:
+	传输方向：输入流和输出流（程序为参照物）
+	传输格式：字节流和字符流
+	
+	FileInputStream extends InputStream
+		read():
+		read(byte[]):一次性把文件中的数据全部读取到byte【】中
+	FileOutputStream extends OutputStream
+		write(char):
+		write(byte[]):
+			1、把要写入的数据转换成byte数组
+			2、一次性把byte数组中的数据写入到文件中（close,flush）
+字符流：
+	FileReader：字符输入流			
+			
+	FileWriter:字符输出流
+			
+			
+			
+			
