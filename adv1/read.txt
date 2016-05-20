@@ -1,0 +1,21 @@
+java.lang:
+java.util:Scanner/Random/Array
+java.io:input/output(操作文件）
+java.sql:DB
+
+导入：
+  import java.xxx.Xxx;
+  
+ 文件：文件+目录
+ File类：表示文件或者目录（不能对文件进行操作，用来查看文件的属性）
+  	属性：文件名称，数据长度，修改时间，路径........
+ 
+ Stream:
+ 	传输方向：输入流和输出流
+ 	传输格式：字节流和字符流
+ 	字节输入流
+ 	字符输入流
+ 	字节输出流
+ 	字符输出流
+ 	
+ FileInputStream：	
